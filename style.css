@@ -1,0 +1,18 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.square{
+    border: 1px solid black;
+    flex: 1;
+}
